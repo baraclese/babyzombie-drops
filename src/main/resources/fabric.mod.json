@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "babyzombie_drops",
+  "version": "${version}",
+  "name": "BabyZombieDrops",
+  "description": "Allows baby zombies to drop xp and loot.",
+  "authors": [
+    "baraclese"
+  ],
+  "contact": {
+    "homepage": "https://github.com/baraclese/babyzombie-drops",
+    "sources": "https://github.com/baraclese/babyzombie-drops"
+  },
+  "license": "BSD-2-Clause",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "baraclese.babyzombie_drops.BabyZombieDropsMod"
+    ]
+  },
+  "mixins": [
+    "babyzombie_drops.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.6.4"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
